@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //            Toast.makeText(this, "找不到补丁文件" + patchFile.getAbsolutePath(), Toast.LENGTH_SHORT).show();
 //        }
         newMethod();
+        new TestClassIsPatch().run(this);
     }
 
     private void newMethod(){
